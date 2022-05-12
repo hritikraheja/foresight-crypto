@@ -1,0 +1,156 @@
+#home{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#homeLeft{
+    width: fit-content;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 40px;
+}
+
+#homeHead{
+    font-size: 80px;
+    color: #283464;
+    font-weight: 600;
+    text-align: left;
+    line-height: 85px;
+    width: fit-content;
+    margin: 0px;
+}
+
+#homeSubHead{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 600;
+    color: #283464;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+#homeButton{
+    color: white;
+    border: none;
+    background-color: #283464;
+    border-radius: 30px;
+    padding: 12px 50px;
+    margin-top: 30px;
+    font-size: 22px;
+    font-size: 700;
+    float: left;
+}
+
+#homeRight{
+    width: 60%;
+}
+
+#homeImg{
+    width: 100%;
+}
+
+@media (min-width:1020px) and (max-width:1200px) {
+    #homeHead{
+        font-size: 70px;
+        line-height: 75px;
+    }
+
+    #homeLeft {
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1020px) {
+    #homeHead{
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    #homeLeft {
+        padding-bottom: 0px;
+    }
+
+    #homeSubHead{
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    #homeButton{
+        font-size: 18px;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width : 480px) and (max-width : 768px) {
+    #homeHead{
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    #homeLeft {
+        padding-bottom: 0px;
+    }
+
+    #homeSubHead{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+    #homeButton{
+        font-size: 12px;
+        margin-top: 15px;
+        padding: 7px 20px;
+    }
+}
+
+@media (max-width : 480px) {
+    #home{
+        display: block;
+    }
+
+    #homeLeft{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #homeHead{
+        width: fit-content;
+        text-align: center;
+        font-size: 45px;
+        line-height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #homeSubHead{
+        width: fit-content;
+        display: block;
+        text-align: justify;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+    #homeButton{
+        float: none;
+        font-size: 18px;
+        padding: 10px 40px;
+        margin-top: 20px;
+    }
+
+    #homeRight{
+        width: 100%;
+    }
+    #homeImg{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

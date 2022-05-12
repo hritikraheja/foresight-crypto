@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-family: 'Cabin', sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 
 .App-logo {
@@ -35,4 +38,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#homeSection{
+  width: 100%;
+  background-image: url('./images/foresight_crypto_background_short.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
