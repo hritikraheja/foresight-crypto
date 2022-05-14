@@ -47,3 +47,11 @@
   background-position: center;
   background-size: cover;
 }
+
+#bottomSection{
+  width: 100%;
+  background-image: url('./images/foresight_crypto_background_short.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

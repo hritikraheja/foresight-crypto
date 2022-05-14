@@ -8,7 +8,7 @@ class Home extends Component{
         return(
             <div id="home">
                 <div id="homeLeft">
-                    <p id="homeHead">Trade<br></br>the Future.</p>
+                    <p id="homeHead">Trade<br></br>the Future</p>
                     <p id="homeSubHead">The Future of Trading is now here.<br></br>Earn Daily money by Rapid Predictions.</p>
                     <button id="homeButton">Join the waitlist</button>
                 </div>

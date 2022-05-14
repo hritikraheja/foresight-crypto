@@ -1,0 +1,101 @@
+#partOfCommunity{
+    width: 100%;
+    padding: 60px 0px;
+}
+
+#partOfCommunityHead{
+    max-width: 80%;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+#socialMediaLinks{
+    width: 80%;
+    display: grid;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#socialMediaLink{
+    width: 120%;
+}
+
+@media (max-width : 480px) {
+    #partOfCommunity{
+        padding: 0px;
+    }
+
+    #partOfCommunityHead{
+        font-size: 28px;
+    }
+
+    #socialMediaLinks{
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+    }
+
+    #socialMediaLink{
+        width: 110%;
+    }
+}
+
+@media (min-width : 480px) and (max-width : 768px) {
+    #partOfCommunity{
+        padding: 20px 0px;
+    }
+
+    #partOfCommunityHead{
+        font-size: 35px;
+    }
+
+    #socialMediaLinks{
+        margin-top: 30px;
+    }
+
+    #socialMediaLink{
+        width: 110%;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1024px) {
+    #partOfCommunity{
+        padding: 40px 0px;
+    }
+
+    #partOfCommunityHead{
+        font-size: 45px;
+    }
+
+    #socialMediaLinks{
+        margin-top: 40px;
+    }
+
+    #socialMediaLink{
+        width: 115%;
+    }
+}
+
+@media (min-width : 1400px) {
+    #partOfCommunity{
+        padding: 70px 0px;
+    }
+
+    #partOfCommunityHead{
+        font-size: 60px;
+    }
+
+    #socialMediaLinks{
+        margin-top: 70px;
+    }
+
+    #socialMediaLink{
+        width: 110%;
+    }
+}

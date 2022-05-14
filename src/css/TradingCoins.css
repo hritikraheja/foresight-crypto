@@ -1,0 +1,87 @@
+#tradingCoins{
+    width: 100%;
+    background-image: url('../images/foresight_crypto_background_short.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 90px 0px;
+}
+
+#tradingCoinsHead{
+    font-size: 50px;
+}
+
+#coins{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#coin{
+    width: 120%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width : 480px) {
+    #tradingCoins{
+        padding: 70px 0px;
+    }
+
+    #coins{
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 30px;
+    }
+
+    #tradingCoinsHead{
+        font-size: 28px;
+    }
+
+    #coin{
+        width: 100%;
+    }
+}
+
+@media (min-width:480px) and (max-width : 768px) {
+    #tradingCoins{
+        padding: 80px 0px;
+    }
+
+    #coins{
+        width: 90%;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 40px;
+    }
+
+    #tradingCoinsHead{
+        font-size: 35px;
+    }
+
+    #coin{
+        width: 110%;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1020px) {
+    #tradingCoins{
+        padding: 80px 0px;
+    }
+
+    #coins{
+        margin-top: 40px;
+    }
+
+    #tradingCoinsHead{
+        font-size: 42px;
+    }
+}
+
+@media (min-width : 1400px) {
+    #tradingCoinsHead{
+        font-size: 60px;
+    }
+}

@@ -1,0 +1,154 @@
+#whoAreWe{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+#whoAreWeHead{
+    font-size: 50px;
+}
+
+#traits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+#trait{
+    display: block;
+}
+
+#traitImg{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#traitHead{
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+#traitSubHead{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.midTrait{
+    margin-top: 80px;
+}
+
+@media (max-width:480px) {
+    #whoAreWe{
+        padding: 60px 0px;
+    }
+
+    #whoAreWeHead{
+        font-size: 28px;
+    }
+
+    #traits{
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #trait{
+        margin-top: 40px;
+    }
+
+    .midTrait{
+        margin-top: 0px;
+    }
+
+    #traitImg{
+        width: 30%;
+    }
+
+    #traitHead{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #traitSubHead{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width : 480px) and (max-width : 768px) {
+    #whoAreWe{
+        padding: 70px 0px;
+    }
+
+    #whoAreWeHead{
+        font-size: 35px;
+    }
+
+    #traits{
+        margin-top: 40px;
+    }
+
+    #traitHead{
+        font-size: 22px;
+        margin-top: 22px;
+    }
+
+    #traitSubHead{
+        font-size: 12px;
+        margin-top: 15px;
+        width: 90%;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 1024px){
+    #whoAreWe{
+        padding: 80px 0px;
+    }
+
+    #whoAreWeHead{
+        font-size: 45px;
+    }
+
+    #traits{
+        margin-top: 50px;
+    }
+
+    #traitHead{
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    #traitSubHead{
+        font-size: 14px;
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+@media (min-width : 1400px) {
+    #whoAreWeHead{
+        font-size: 60px;
+    }
+
+    #traits{
+        margin-top: 60px;
+    }
+
+    #traitHead{
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    #traitSubHead{
+        font-size: 16px;
+        margin-top: 20px;
+        width: 90%;
+    }
+}
