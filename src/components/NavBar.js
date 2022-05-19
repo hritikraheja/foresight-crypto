@@ -4,6 +4,16 @@ import "../css/NavBar.css";
 
 class NavBar extends Component {
   render() {
+
+    var collapseNavBar = () =>{
+      var btn = document.getElementById('toggle-btn');
+      var b = document.getElementById('navbarNav');
+      b.ariaExpanded = false;
+      btn.ariaExpanded = false;
+      btn.classList.add('collapsed')
+      b.className = b.className.replace(" show", "");
+  }
+
     return (
       <nav class="navbar navbar-expand-md  d-flex" id="top-navigation">
         <div className="navbar-header">
@@ -24,8 +34,7 @@ class NavBar extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i class="navbar-toggler-icon glyphicon glyphicon-align-justify"></i>
-            {/* <span class="navbar-toggler-icon glyphicon gyphicon-chevron-right text-dark"></span> */}
+            <i class="navbar-toggler-icon fa fa-bars fa-lg"></i>
           </button>
         </div>
         <div class="collapse navbar-collapse text-center" id="navbarNav">
@@ -34,28 +43,28 @@ class NavBar extends Component {
             id="navigation"
           >
             <li class="nav-item">
-              <a class="nav-link" href="#" id="nav-lnks">
+              <a class="nav-link" href="#" id="nav-lnks" onClick={collapseNavBar}>
                 HOME
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gs" id="nav-lnks">
+              <a class="nav-link" href="#howToTrade" id="nav-lnks" onClick={collapseNavBar}>
                 HOW TO TRADE
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="nav-lnks">
+              <a class="nav-link" href="#partOfCommunity" id="nav-lnks" onClick={collapseNavBar}>
                 COMMUNITY
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="nav-lnks">
+              <a class="nav-link" href="#whoAreWe" id="nav-lnks" onClick={collapseNavBar}>
                ABOUT
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="nav-lnks">
+              <a class="nav-link" href="#" id="nav-lnks" onClick={collapseNavBar}>
                 CONTACT
               </a>
             </li>

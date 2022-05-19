@@ -69,12 +69,13 @@
 
 @media (max-width : 480px) {
     #stats{
-        margin: 40px auto;
+        margin: 25px auto 40px;
         grid-template-columns: 1fr 1fr;
     }
 
     #stat{
         padding: 5px;
+        margin-top: 15px;
     }
     #statData{
         font-size: 20px;

@@ -120,6 +120,11 @@ text-center {
     margin-right: 20px;
   }
 
+  .navbar-toggler-icon{
+    width: 30px;
+    height: auto;
+  }
+
   #toggle-btn:focus {
     outline: none;
     box-shadow: none;

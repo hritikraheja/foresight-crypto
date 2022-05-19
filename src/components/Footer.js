@@ -12,7 +12,7 @@ class Footer extends Component{
  
             <div class="container p-0" id="footer">
                 
-                <div class="row" style={{'width':'100%', 'marginTop': '20px'}}>
+                <div class="row" style={{'width':'100%', 'paddingTop': '20px'}}>
                 
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0 container" id="footer-section-1">
                     <div className="container-fluid mt-0" id="logo-and-brand">
@@ -33,19 +33,16 @@ class Footer extends Component{
                         <a href="#" class="text-light" id="footer-lnk">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="text-light" id="footer-lnk">How To Play</a>
+                        <a href="#howToTrade" class="text-light" id="footer-lnk">How To Trade</a>
                     </li>
                     <li>
-                        <a href="#" class="text-light"  id="footer-lnk">Blogs</a>
+                        <a href="#partOfCommunity" class="text-light"  id="footer-lnk">Community</a>
                     </li>
                     <li>
-                        <a href="#" class="text-light"  id="footer-lnk">FAQs</a>
+                        <a href="#whoAreWe" class="text-light"  id="footer-lnk">About</a>
                     </li>
                     <li>
-                        <a href="#" class="text-light"  id="footer-lnk">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-light"  id="footer-lnk">Contact Us</a>
+                        <a href="#" class="text-light"  id="footer-lnk">Contact</a>
                     </li>
                     </ul>
                 </div>
@@ -61,7 +58,7 @@ class Footer extends Component{
                         <a href="https://www.instagram.com/foresight_in/" target='_blank' class="text-light" id="footer-lnk">Instagram</a>
                     </li>
                     <li>
-                        <a href="#!" class="text-light" target='_blank' id="footer-lnk">Twitter</a>
+                        <a href="https://twitter.com/Foresight_in" class="text-light" target='_blank' id="footer-lnk">Twitter</a>
                     </li>
                     <li>
                         <a href="https://medium.com/forecight" class="text-light" target='_blank' id="footer-lnk">Medium</a>
@@ -81,13 +78,13 @@ class Footer extends Component{
                         <div class="input-group ml-0">
                             <input id="footer-input" autoComplete="off" type="text" class="form-control" placeholder="Your Email" style={{'height':'50px'}}/>
                             <div class="input-group-btn">
-                            <button class="btn btn-default" type="submit" style={{'backgroundColor':'orange', 'height':'50px'}}>
-                                <i class="glyphicon glyphicon-chevron-right text-light"></i>
+                            <button class="btn btn-default" type="submit" style={{'backgroundColor':'orange', 'height':'50px', 'color':'white'}}>
+                                <i class="fa fa-angle-right text-light"></i>
                             </button>
                             </div>
                         </div>
                     </form>
-                    <p className="text-light my-10 mt-5">
+                    <p className="text-light my-10 mt-3">
                         <b>Address</b>-325/K<br/>G Block, Kumari<br/>Rameshpur 631001
                     </p>
 
@@ -99,17 +96,17 @@ class Footer extends Component{
             </div>
 
             <div className="container">
-                <div className="row mb-4" style={{'marginTop':'50px'}}>
-                    <div className="col-lg-6 mb-3">
+                <div className="row pb-4" style={{'marginTop':'20px'}}>
+                    <div className="col-lg-6 mb-0">
                         <span className="text-light"><i className="glyphicon glyphicon-copyright-mark"/> Sageskills Pvt Ltd. All rights are reserved</span>
                     </div>
                     <div className="col-lg-6">
                         <div style={{'display':'inline-flex'}}>
-                            <p className="mb-2" id ="footer-lnk">Terms & Conditions</p>
+                            <p className="mb-0" id ="footer-lnk">Terms & Conditions</p>
                             <p className="text-light mx-4">|</p>
-                            <p className="mb-2" id="footer-lnk">Privacy Policy</p>
+                            <p className="mb-0" id="footer-lnk">Privacy Policy</p>
                             <p className="text-light mx-4">|</p>
-                            <p className="mb-2" id="footer-lnk">Cancellation & Refund Policy</p>
+                            <p className="mb-0" id="footer-lnk">Cancellation & Refund Policy</p>
                         </div>
                     </div>
                 </div>

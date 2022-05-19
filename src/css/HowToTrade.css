@@ -1,0 +1,446 @@
+@keyframes slideFromRight {
+    0%{
+        transform: translate(200px, 0px);
+    }
+
+    5%{
+        transform: translate(190px, 0px);
+    }
+
+    10%{
+        transform: translate(180px, 0px);
+    }
+
+    15%{
+        transform: translate(170px, 0px);
+    }
+
+    20%{
+        transform: translate(160px, 0px);
+    }
+
+    25%{
+        transform: translate(150px, 0px);
+    }
+    30%{
+        transform: translate(140px, 0px);
+    }
+
+    35%{
+        transform: translate(130px, 0px);
+    }
+
+    40%{
+        transform: translate(120px, 0px);
+    }
+
+    45%{
+        transform: translate(110px, 0px);
+    }
+    
+    50%{
+        transform: translate(100px, 0px);
+    }
+
+    55%{
+        transform: translate(90px, 0px);
+    }
+
+    60%{
+        transform: translate(80px, 0px);
+    }
+
+    65%{
+        transform: translate(70px, 0px);
+    }
+
+    70%{
+        transform: translate(60px, 0px);
+    }
+
+    75%{
+        transform: translate(50px, 0px);
+    }
+
+    80%{
+        transform: translate(40px, 0px);
+    }
+
+    85%{
+        transform: translate(30px, 0px);
+    }
+
+    90%{
+        transform: translate(20px, 0px);
+    }
+    
+    95%{
+        transform: translate(10px, 0px);
+    }
+
+    100%{
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes slideFromLeft {
+    0%{
+        transform: translate(-200px, 0px);
+    }
+
+    5%{
+        transform: translate(-190px, 0px);
+    }
+
+    10%{
+        transform: translate(-180px, 0px);
+    }
+
+    15%{
+        transform: translate(-170px, 0px);
+    }
+
+    20%{
+        transform: translate(-160px, 0px);
+    }
+
+    25%{
+        transform: translate(-150px, 0px);
+    }
+    30%{
+        transform: translate(-140px, 0px);
+    }
+
+    35%{
+        transform: translate(-130px, 0px);
+    }
+
+    40%{
+        transform: translate(-120px, 0px);
+    }
+
+    45%{
+        transform: translate(-110px, 0px);
+    }
+    
+    50%{
+        transform: translate(-100px, 0px);
+    }
+
+    55%{
+        transform: translate(-90px, 0px);
+    }
+
+    60%{
+        transform: translate(-80px, 0px);
+    }
+
+    65%{
+        transform: translate(-70px, 0px);
+    }
+
+    70%{
+        transform: translate(-60px, 0px);
+    }
+
+    75%{
+        transform: translate(-50px, 0px);
+    }
+
+    80%{
+        transform: translate(-40px, 0px);
+    }
+
+    85%{
+        transform: translate(-30px, 0px);
+    }
+
+    90%{
+        transform: translate(-20px, 0px);
+    }
+    
+    95%{
+        transform: translate(-10px, 0px);
+    }
+
+    100%{
+        transform: translate(-0px, 0px);
+    }
+}
+
+#stepOneHeader[aria-expanded = true] #iconRight{
+    display: none;
+}
+
+#stepOneHeader[aria-expanded = false] #iconDown{
+    display: none;
+}
+
+#stepTwoHeader[aria-expanded = true] #iconRight{
+    display: none;
+}
+
+#stepTwoHeader[aria-expanded = false] #iconDown{
+    display: none;
+}
+
+#stepThreeHeader[aria-expanded = true] #iconRight{
+    display: none;
+}
+
+#stepThreeHeader[aria-expanded = false] #iconDown{
+    display: none;
+}
+
+#stepFourHeader[aria-expanded = true] #iconRight{
+    display: none;
+}
+
+#stepFourHeader[aria-expanded = false] #iconDown{
+    display: none;
+}
+
+#howToTrade{
+    padding: 60px;
+}
+
+#howToTradeHead{
+    font-size: 50px;
+}
+
+.stepHeader{
+    width: 100%;
+    border: none;
+    background: none;
+    display: flex
+}
+
+.step{
+    background-image: linear-gradient(to right, #e4d8d8, #f2f2f2);
+    -webkit-box-shadow: 0 0 10px 2px #AAA;
+    -moz-box-shadow: 0 0 10px 2px #AAA;
+    box-shadow: 0px 0px 10px 2px #AAA;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+#stepNumber{
+    color: white;
+    background-color: #333333;
+    margin: 0px 20px;
+    border-radius: 50%;
+    padding: 6px 12px;
+    font-size: 18px;
+}
+
+#stepHead{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 900;
+}
+
+.stepDesc{
+    text-align: left;
+    margin: 0px 20px;
+    font-size: 20px;
+    padding: 10px 0px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+}
+
+#iconRight, #iconDown{
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+#howToTradeSteps{
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#steps{
+    width: 48%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#stepImageSlider{
+    margin-left: 4%;
+    width: 48%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+}
+
+#stepImg{
+    width: 100%;
+}
+
+.stepImageSliderAnimationRight{
+    animation-name: slideFromRight;
+    animation-duration: 0.30s;
+    overflow: hidden;
+    animation-timing-function: linear;
+}
+
+.stepImageSliderAnimationLeft{
+    animation-name: slideFromLeft;
+    animation-duration: 0.30s;
+    overflow: hidden;
+    animation-timing-function: linear;
+}
+
+@media (max-width : 480px) {
+    #howToTrade{
+        padding: 60px 0px 0px;
+    }
+    #howToTradeHead{
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+    #howToTradeSteps{
+        display: block;
+        width: 100%;
+    }
+
+    #steps{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #stepHead{
+        font-size: 18px;
+        line-height: 25px;
+        margin:auto 0px;
+    }
+
+    .step{
+        padding: 10px;
+        margin: 15px 0px;
+    }
+
+    #iconRight, #iconDown{
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .stepDesc{
+        font-size: 12px;
+    }
+
+    #stepImageSlider{
+        width: 100%;
+    }
+    #stepImg{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 480px) and (max-width : 768px) {
+    #howToTradeHead{
+        font-size: 35px;
+    }    
+
+    #howToTradeSteps{
+        width: 95%;
+        margin-top: 30px;
+    }
+
+    #stepHead{
+        font-size: 18px;
+        line-height: 22px;
+        margin:auto 0px;
+    }
+
+    .step{
+        padding: 10px;
+        margin: 15px 0px;
+    }
+
+    #iconRight, #iconDown{
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .stepDesc{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width : 1024px) {
+    #howToTradeHead{
+        font-size: 45px;
+    }    
+
+    #howToTradeSteps{
+        width: 90%;
+    }
+
+    #stepHead{
+        font-size: 22px;
+        line-height: 27px;
+        margin:auto 0px;
+    }
+
+    .step{
+        padding: 15px;
+        margin: 20px 0px;
+    }
+
+    #iconRight, #iconDown{
+        font-size: 22px;
+        line-height: 27px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .stepDesc{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #howToTradeHead{
+        font-size: 60px;
+    }    
+
+    #howToTradeSteps{
+        width: 80%;
+    }
+
+    #stepHead{
+        font-size: 32px;
+        line-height: 37px;
+        margin:auto 0px;
+    }
+
+    .step{
+        padding: 22px;
+        margin: 30px 0px;
+    }
+
+    #iconRight, #iconDown{
+        font-size: 32px;
+        line-height: 37px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .stepDesc{
+        font-size: 24px;
+    }
+}
