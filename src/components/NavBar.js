@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import foresightLogo from "../images/foresightLogoNavbar.png";
 import "../css/NavBar.css";
+import 'font-awesome/css/font-awesome.min.css';
 
 class NavBar extends Component {
   render() {

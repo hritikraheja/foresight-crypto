@@ -74,12 +74,12 @@ class Footer extends Component{
 
                 <div className="col-lg-3 col-md-6 mb-4 mb-md-0" id="footer-content-4">
                     <h5 className="mb-3 text-light lead" id="footer-head"><b>Subscribe our Weekly Newsletter</b></h5>
-                    <form id="footer-form" class="navbar-form navbar-left p-0">
+                    <form id="footer-form" class="navbar-form navbar-left p-0" action="http://eepurl.com/hUZqtj" target="_blank">
                         <div class="input-group ml-0">
                             <input id="footer-input" autoComplete="off" type="text" class="form-control" placeholder="Your Email" style={{'height':'50px'}}/>
                             <div class="input-group-btn">
                             <button class="btn btn-default" type="submit" style={{'backgroundColor':'orange', 'height':'50px', 'color':'white'}}>
-                                <i class="fa fa-angle-right text-light"></i>
+                                <i class="fa fa-angle-right fa-lg text-light"></i>
                             </button>
                             </div>
                         </div>

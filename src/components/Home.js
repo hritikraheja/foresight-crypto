@@ -10,7 +10,7 @@ class Home extends Component{
                 <div id="homeLeft">
                     <p id="homeHead">Trade<br></br>the Future</p>
                     <p id="homeSubHead">The Future of Trading is now here.<br></br>Earn Daily money by Rapid Predictions.</p>
-                    <button id="homeButton">Join the waitlist</button>
+                    <a href="http://eepurl.com/hUZqtj" target="_blank"><button id="homeButton">Join the waitlist</button></a>
                 </div>
                 <div id="homeRight">
                     <img id="homeImg" src={image}></img>
